@@ -1,0 +1,108 @@
+## Build artifacts
+bin/
+obj/
+out/
+build/
+[Bb]uild[Ll]og.*
+*.pidb
+*.svclog
+*.scc
+*.pdb
+*.log
+*.userosscache
+*.userprefs
+*.suo
+*.rsuser
+
+## Visual Studio & JetBrains Rider
+.vs/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.iml
+
+## Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+## NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Uncomment if you don’t want to store NuGet packages locally
+# **/packages/*/
+
+## Publish output
+publish/
+wwwroot/dist/
+wwwroot/lib/
+artifacts/
+
+## ASP.NET specific
+appsettings.*.json
+secrets.json
+.env
+.env.*
+
+## Logs and temporary files
+*.log
+logs/
+*.tmp
+temp/
+tmp/
+TestResults/
+coverage/
+BenchmarkDotNet.Artifacts/
+
+## Entity Framework Core
+Migrations/
+
+## Local tooling
+.local/
+toolsettings.json
+/.ionide/
+
+## ReSharper
+_ReSharper.Caches/
+
+## Rider
+.idea/
+*.sln.iml
+
+## OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Docker
+**/docker-compose.override.yml
+**/.dockerignore
+.docker/
+docker-compose*.yaml
+
+## Azure & other cloud
+.publishsettings
+*.azurePubxml
+*.pubxml.user
+*.publishproj
+
+## Certificates
+*.pfx
+*.p12
+*.cer
+*.key
+*.crt
+
+## Others
+*.swp
+*.bak
+*.orig
+*.rej
+*.diff
+*.patch
